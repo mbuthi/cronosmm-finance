@@ -6,7 +6,10 @@ const Dropdown = React.forwardRef((props, ref) => {
     return (
         <>
         
-        <div ref={ref} className={`dropdownMenu ${open ? 'active': 'inactive'}`}>
+        <div ref={ref} className={`dropdownMenu ${open ? 'active': 'inactive'}`}
+        
+
+        >
             <ul>
                 
     {props.hoveredLink === "Trade" && (
@@ -43,7 +46,12 @@ const Dropdown = React.forwardRef((props, ref) => {
             <li>Madbox</li>    
         </>
     )}
-   
+    {/* {props.hoveredLink === "Games" && (
+        <>
+            <li>Game1</li>
+            <li>Game2</li>
+        </>
+    )} */}
     
             </ul>
         </div>

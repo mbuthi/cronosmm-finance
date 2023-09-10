@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import Dropdown from "../../components/Dropdown/Dropdown";
+import Hero from "../../components/Hero/Hero";
 const Cron = () => {
     return (
         <>
         <Navbar />
-        <Dropdown />
+        <Hero />    
         </>
     )
 }
