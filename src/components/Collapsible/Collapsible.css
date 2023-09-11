@@ -8,6 +8,7 @@
     text-align: left;
     outline: none;
     font-size: 15px;
+    justify-content: space-between;
   }
   
   .collapsible:hover, .collapsible.active {
@@ -15,13 +16,14 @@
   }
   
   .content {
-    padding: 20px 18px;
+    padding: 0px 18px;
     background-color: var(--colorBrightGrey);
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: all 0.5s linear;
     width: 100%;
     color: var(--colorLightPink);
+    cursor: pointer;
   }
   
   
@@ -30,5 +32,29 @@
     position: relative;
     display: inline-block; 
 }
+
+/* ... existing styles ... */
+
+.collapsible.bordered {
+  border-radius: 10px;  /* Set border-radius on all sides */
+}
+
+.collapsible.bordered.active {
+  border-bottom-left-radius: 0;  /* Remove bottom-left border-radius */
+  border-bottom-right-radius: 0; /* Remove bottom-right border-radius */
+  border-bottom: 1px solid var(--colorLightDark); 
+}
+
+.content.bordered {
+   /* Add a line to separate the collapsible from the content */
+  border-bottom-left-radius: 10px;  /* Set bottom-left border-radius */
+  border-bottom-right-radius: 10px; /* Set bottom-right border-radius */
+}
+
+.rightHC svg {
+  fill: var(--colorLightPink);
+  height: 20px;
+}
+
 
   
