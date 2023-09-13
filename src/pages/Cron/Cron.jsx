@@ -5,6 +5,8 @@ import Collapsible from "../../components/Collapsible/Collapsible";
 import "./Cron.css"
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
+import imgCollapse from "../../assets/images/img-collapse.png"
+import imgCollapse2 from "../../assets/images/image-collapse-2.png"
 const Cron = () => {
     const times = [1, 2, 3, 4]
     return (
@@ -18,8 +20,13 @@ const Cron = () => {
                 <Collapsible key={index}                
             headerContent={
                 <div className="series flex">
-                    <div className="imgTokenName">
-                        <img src="" alt="" className="imgToken" />
+                    <div className="imgTokenName flex gp10">
+                        <div className="imagesTokens">
+                            <div className="smallImageTokens">
+                                <img src={imgCollapse} alt="" className="imgToken imgSmall" />
+                            </div>
+                            <img src={imgCollapse2} alt="" className="imgToken imgBig" />                            
+                        </div>                        
                         <h3 className="textHeading3">
                             MMF-CRO
                         </h3>
