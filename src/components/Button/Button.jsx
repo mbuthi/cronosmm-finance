@@ -5,7 +5,7 @@ const Button = (props) => {
     return (
         <div className="button">
             <Link to={props.url}>
-                <button className="btn" {...props}>
+                <button disabled={props.isDisabled} className="btn" {...props}>
                     {props.name}
                 </button>
             </Link>            

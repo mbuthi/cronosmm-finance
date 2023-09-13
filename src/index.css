@@ -25,6 +25,10 @@ code {
   --colorBrightGrey: #372f47;
   --colorBrownLight: #afafaf;
   --colorLightPink: #f4eeff;
+  --colorPrimary1: #1e1d20;
+  --colorPrimary2: #8b8b8b1a;
+  --colorPrimary3: #666171;
+  --colorPrimary4: #3c3742;
 }
 
 .flex {
@@ -34,4 +38,35 @@ code {
 
 .mb2 {
   margin-bottom: 20px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.gp30 {
+  gap: 40px;
+}
+
+.between {
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.end {
+  align-self: flex-end;
+}
+
+.gp30 {
+  gap: 30px;
+}
+.gp20 {
+  gap: 20px;
+}
+.gp10 {
+  gap: 10px;
+}
+
+.w100 {
+  width: 100%;
 }

@@ -57,4 +57,22 @@
 }
 
 
+/* First collapsible: Top left and right border-radius */
+.collapsible-container:first-child .collapsible {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Last collapsible: Bottom left and right border-radius */
+.collapsible-container:last-child .collapsible {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Middle collapsibles: No border-radius */
+.collapsible-container:not(:first-child):not(:last-child) .collapsible {
+  border-radius: 0;
+}
+
+
   

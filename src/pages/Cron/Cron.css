@@ -1,0 +1,133 @@
+.parentContainer {
+    padding: 50px 100px;
+}
+
+#parentCont .collapsible-container {
+    display: block;
+    background-color: var(--colorDarkBg);
+    
+}
+
+#parentCont .collapsible {
+    background-color: var(--colorDarkBg);
+    border-bottom: 1px solid  var(--colorLightPink);
+}
+
+.series > div {
+    color: var(--colorLightPink);
+}
+
+.svgCollapse {
+    fill: var(--colorLightPink);
+    width: 20px;
+    height: 20px;
+}
+
+.series {
+    gap: 150px;
+}
+
+.earned {
+    flex-direction: column;
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.earnText {
+    color: var(--colorBrownLight);
+}
+
+.walletNone {
+    background-color: var(--colorPrimary1);
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.earningsWallet {
+    background-color: var(--colorPrimary2);
+}
+
+/* #parentCont .content {
+    padding: 0;
+} */
+
+.LinksOnly {
+    width: 100%;
+    
+}
+.LinksOnly1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.LinksOnly1 a {
+    text-decoration: none;
+    color: var(--colorBrown);
+
+}
+
+.LinksOnly1  {
+    padding-bottom: 10px;
+}
+.LinksOnly1 svg {
+    fill: var(--colorBrown);
+    height: 20px;
+    padding-left: 10px;
+    width: 20px;
+}
+
+
+
+.core svg {
+    fill: var(--colorWhite);
+}
+
+.core {
+    align-self: flex-start;
+    padding: 5px 10px;
+    border: 2px solid var(--colorWhite);
+    border-radius: 25px;
+}
+
+.roundBox {
+    border: 3px solid var(--colorBrown);
+    border-radius: 25px;
+    padding: 10px 15px;
+    width: 50%;
+    height: 80px;
+}
+
+.wallets {
+    justify-content: space-between;
+    width: 70%;
+}
+
+.wallet2 {
+    gap: 80px;
+}
+
+.wallet1 {
+    width: 180px;
+}
+
+.textHeading4 {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.mmfAmt {
+    align-self: flex-start;
+}
+.mmfBtn  {
+    
+}
+.wallet3 .textHeading4 {
+    align-self: flex-start;
+    padding-bottom: 10px;
+}
+.wallet3 .button {
+    width: 100%;
+}
