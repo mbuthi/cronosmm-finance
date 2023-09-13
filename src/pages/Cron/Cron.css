@@ -131,3 +131,47 @@
 .wallet3 .button {
     width: 100%;
 }
+
+.earningsWallet {
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.boxOuter {
+    height: 110px;
+    width: 110px;
+    background: linear-gradient(0.25turn, rgb(209, 107, 165), rgb(134, 168, 231), rgb(95, 251, 241));
+    justify-content: center;
+    border-radius: 10px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background: center center / cover rgb(54, 67, 79);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgb(24, 24, 25);
+}
+
+.span1Earn {
+    color: var(--colorLightPink);
+    font-size: 16px;
+    font-weight: 700;
+}
+.span2Earn {
+    color: var(--colorBrown);
+}
+
+.span2C {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.span3C {
+    font-size:  35px;
+    font-weight: 700;
+}
